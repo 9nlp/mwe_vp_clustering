@@ -1,2 +1,2 @@
-# mwe_vp_clustering
-Verbal periphrases (a subtype of multiword expressions) clustering for spanish.
+# Multiword expression -- verbal periprhases clustering
+The aim of this code is to semantically cluster Spanish verbal periphrases (VPs), a subtype of multiword expressions. To this end, we used the k-means clustering algorithm. Previously, these periphrases were manually extracted from The Mexican Spanish Socio-linguistic Corpus. We obtained all the corresponding vector representations (word and sub-word embeddings of different dimensionalities) in order to statistically encode contexts information in which VPs are used by Mexican speakers.
