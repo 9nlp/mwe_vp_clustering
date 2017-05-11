@@ -16,7 +16,7 @@ import os
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
                     level=logging.INFO)
 
-parser = ap(description='This script trains/applies a SVR over any input dataset of numerical representations. The main aim is to determine a set of learning parameters')
+parser = ap(description='This script clusters word embeddings by using k-means.')
 parser.add_argument("-x", help="Input file name (vectors)", metavar="input_file", required=True)
 parser.add_argument("-m", help="Clustering metric [cosine|euclidean]", metavar="metric", default="euclidean")
 parser.add_argument("-c", help="Clusterer = {km, km++, aggwr}", metavar="clusterer", required=True)
